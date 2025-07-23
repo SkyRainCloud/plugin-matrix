@@ -1,0 +1,39 @@
+/* Base styles for the plugin metrics page */
+#plugin-metrics-app {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Chart container styles */
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+/* Table styles */
+table {
+    min-width: 100%;
+}
+
+th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+td {
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .chart-container {
+        height: 200px;
+    }
+    
+    td, th {
+        padding: 0.5rem 1rem;
+    }
+}
